@@ -22,7 +22,3 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
 
-- script: |
-    echo Starting the run
-    gradle test
-  displayName: 'Build with Maven'
