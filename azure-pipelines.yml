@@ -22,7 +22,6 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     tasks: 'build'
 
-steps:
 - task: Gradle@2
   inputs:
     workingDirectory: ''
